@@ -1,10 +1,10 @@
 # MySQL_ETL
 Long form to wide forms ETL:
 
-CREATE VIEW Googleanalytics2_view AS 
-SELECT 
-(CAST(bt.date as date)) as Date, 
-bt.deviceCategory as Device_Category, 
+CREATE VIEW Googleanalytics2_view AS   
+SELECT   
+(CAST(bt.date as date)) as Date,   
+bt.deviceCategory as Device_Category,    
 bt.mobileDeviceInfo as Mobile_Device_Info,
 bt.browser as Broswer,
 bt.landingPagePath as Landing_Page_Path,
